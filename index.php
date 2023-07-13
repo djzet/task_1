@@ -43,27 +43,27 @@ if (preg_match($dateValidate, $date)) {
     echo '<br>';
 }
 
-echo '<br>';
+// echo '<br>';
 
-$data = ['email' => preg_match($emailValidate, $email), 'password' => preg_match($passworsValidate, $password), 'date' => preg_match($dateValidate, $date)];
-switch ($data) {
-    case (!$data['email']):
-        echo '<br>';
-        echo 'Почта не валидна';
-        echo '<br>';
-        break;
-    case (!$data['password']):
-        echo '<br>';
-        echo 'Пароль не валидет';
-        echo '<br>';
-        break;
-    case (!$data['date']):
-        echo '<br>';
-        echo 'Дата не валидна';
-        echo '<br>';
-        break;
-    default:
-        echo '<br>';
-        echo 'Данные валидны';
-        echo '<br>';
-}
+// $data = ['email' => preg_match($emailValidate, $email), 'password' => preg_match($passworsValidate, $password), 'date' => preg_match($dateValidate, $date)];
+// switch ($data) {
+//     case (!$data['email']):
+//         echo '<br>';
+//         echo 'Почта не валидна';
+//         echo '<br>';
+//         break;
+//     case (!$data['password']):
+//         echo '<br>';
+//         echo 'Пароль не валидет';
+//         echo '<br>';
+//         break;
+//     case (!$data['date']):
+//         echo '<br>';
+//         echo 'Дата не валидна';
+//         echo '<br>';
+//         break;
+//     default:
+//         echo '<br>';
+//         echo 'Данные валидны';
+//         echo '<br>';
+// }
